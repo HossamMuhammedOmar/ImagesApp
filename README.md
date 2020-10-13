@@ -11,3 +11,6 @@
 * Create a new text widget to show some text on the screen.
 * Tack that widget and get it on the screen.
 #
+
+### App Widget Tree
+<img src='Images/AppWidgetTree.png'>
