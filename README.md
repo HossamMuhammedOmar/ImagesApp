@@ -2,7 +2,7 @@
 
 `Flutter project`
 
-fitch data from the internet 
+#### fitch data from the internet 
 
 ## App Prototype 
 <img src='Images/AppPrototype.png'>
