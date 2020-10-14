@@ -8,16 +8,18 @@ class App extends StatefulWidget {
 
 class AppState extends State<App> {
   int counter = 0;
+  void fetchImage() {
+    setState(() {
+      counter++;
+    });
+  }
+
   Widget build(context) {
     return MaterialApp(
       home: Scaffold(
         floatingActionButton: FloatingActionButton(
           child: Icon(Icons.add),
-          onPressed: () {
-            setState(() {
-              counter++;
-            });
-          },
+          onPressed: fetchImage,
         ),
         appBar: AppBar(
           title: Text('Let\'s See Images!'),
