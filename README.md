@@ -18,6 +18,7 @@
 <img src='Images/AppWidgetTree.png'>
 
 * * * 
-  work in progress 
 
 <img src='Images/workInProg.png' width = '200px'>
+
+* * *
