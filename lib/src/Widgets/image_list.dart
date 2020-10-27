@@ -7,17 +7,29 @@ class ImageList extends StatelessWidget {
   ImageList(this.images);
 
   @override
-  Widget build(BuildContext context) {
+  Widget build(context) {
     return ListView.builder(
       itemCount: images.length,
       itemBuilder: (context, index) {
-        return Container(
-          margin: EdgeInsets.all(20.0),
-          padding: EdgeInsets.all(20.0),
-          decoration: BoxDecoration(border: Border.all(color: Colors.grey)),
-          child: Image.network(images[index].url),
-        );
+        return buidImage(images[index]);
       },
+    );
+  }
+
+  Widget buidImage(ImageModel image) {
+    return Container(
+      margin: EdgeInsets.all(20.0),
+      padding: EdgeInsets.all(20.0),
+      decoration: BoxDecoration(border: Border.all(color: Colors.grey)),
+      child: Column(
+        children: <Widget>[
+          Padding(
+            padding: EdgeInsets.only(bottom: 10.0),
+            child: Image.network(image.url),
+          ),
+          Text(image.title),
+        ],
+      ),
     );
   }
 }
