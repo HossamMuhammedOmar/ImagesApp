@@ -19,6 +19,8 @@
 
 * * * 
 
-<img src='Images/workInProg.png' width = '200px'>
+### APP PREVIEW
+
+<img src='Images/app_preview.gif' >
 
 * * *
