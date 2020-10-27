@@ -17,10 +17,9 @@
 ### App Widget Tree
 <img src='Images/AppWidgetTree.png'>
 
-* * * 
+#
 
 ### APP PREVIEW
 
 <img src='Images/app_preview.gif' >
 
-* * *
