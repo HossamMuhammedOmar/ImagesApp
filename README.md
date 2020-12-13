@@ -4,9 +4,6 @@
 
 #### fitch data from the internet 
 
-## App Prototype 
-<img src='Images/AppPrototype.png'>
-
 ### The four step desgin process 
 * Need to import helper library from flutter to get content on the screen.
 * Define a 'main' function to run when our app is starts.
@@ -16,10 +13,3 @@
 
 ### App Widget Tree
 <img src='Images/AppWidgetTree.png'>
-
-#
-
-### APP PREVIEW
-
-<img src='Images/app_preview.gif' >
-<br/>
